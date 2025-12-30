@@ -1,7 +1,7 @@
 # Matrix-traversal-benchmark ( Cache Locality Benchmark)
 
 ## Environment
-- Tested on **Debian (Ubuntu-based) via Windows Subsystem for Linux 2 (WSL2)**
+- Tested on **Debian via Windows Subsystem for Linux 2 (WSL2)**
 - CPU: [Intel i7-11800H]
 - Compiled with `g++ -O3  -ffast-math -march=native -g`
 - Note: WSL2 introduces minimal virtualization overhead for CPU/cache benchmarks, but the relative difference between row-major and column-major traversal remains clearly visible (and often amplified due to higher memory latency on misses).
