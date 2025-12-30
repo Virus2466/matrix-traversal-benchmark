@@ -116,5 +116,17 @@ int main(){
 
 
 
+# Perf Insights [ n = 10000 ] 
+- Perf flags : `perf stat -r 5`
+
+### Row-Major Traversal
+<img width="1623" height="488" alt="Screenshot 2025-12-30 160642" src="https://github.com/user-attachments/assets/edba29b0-b2a0-4803-a71c-5ab603025f42" />
+
+### Column Major Travesral
+<img width="1585" height="488" alt="Screenshot 2025-12-30 160850" src="https://github.com/user-attachments/assets/93a13747-bd1b-4904-98b5-0cc83d2dc0ca" />
+
+
+### Flat 1D Vector
+<img width="1675" height="706" alt="Screenshot 2025-12-30 161052" src="https://github.com/user-attachments/assets/ce5a8dcf-9450-4c34-a484-70df49f160b1" />
 
 
