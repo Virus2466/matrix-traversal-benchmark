@@ -6,10 +6,10 @@
 - Compiled with `g++ -O3  -ffast-math -march=native -g`
 - Note: WSL2 introduces minimal virtualization overhead for CPU/cache benchmarks, but the relative difference between row-major and column-major traversal remains clearly visible (and often amplified due to higher memory latency on misses).
 
-Results may vary slightly on native Linux, but the core lesson — align traversal with storage order for cache efficiency — holds everywhere.
+Results may vary slightly on native Linux, but the core lesson  align traversal with storage order for cache efficiency holds everywhere.
 
 A practical demonstration of how memory layout and traversal order affect performance in C++. I started with the beginner-friendly std::vector<std::vector<int>>, saw the slowdowns, then optimized to a contiguous flat 1D vector — with benchmarks, perf stats, and explanations.
-Key Insight: Cache misses dominate — aligning access with storage order can yield 20–50× speedups
+Key Insight: Cache misses dominate aligning access with storage order can yield 20–50× speedups
 
 
 ## Started With std::vector<std::vector<int>>
